@@ -1,0 +1,113 @@
+body{
+    background-color:#11468F;
+    color:  #EEEEEE;
+}
+
+.caja{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    margin-left: 17%;
+}
+
+.title{
+    text-align: center;
+}
+
+#txtPokemon{
+    margin-left: 10%;
+    margin-top: 7.5%;
+}
+
+/* #searcherrr{
+    color: black;
+    position: absolute;
+    margin-left: 2%;
+    margin-top: 1.5%;
+} */
+
+#boton{
+    margin-left: 100%;
+    margin-top: -25%;
+}
+/* .filters{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    margin-top: 2.5%;
+} */
+
+.imgPoke{
+    height: -2100px;
+    width: -2000px;  /*tengo que hacer esto mas chico de alguna manera */
+}
+
+.pokemon-block{
+    background-color: #be3c3c;
+    width: 50%;
+    height: 90%;
+    text-align: center;
+    
+    border-radius: 25px;
+    margin-bottom: 20px;   
+}
+
+.pokemon-container {
+    display: grid;
+    justify-content: space-between;
+    height: -2002px;
+    width: -2002px;
+    grid-template-columns: 38% 38% 38%;
+    gap: 0px;
+    width: 80%;
+    height: 90%;
+    margin-left: 12%;
+    margin-right: 12%;
+   
+  }
+
+  .pokemon-block{
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
+  #pag{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -5%;
+  }
+
+  #next{
+    width: 12%;
+  
+    background-color: #EEEEEE;
+    color: #1A1A40;
+    border: 0px ; 
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+    display: flex;
+    justify-content: center;
+
+    position: absolute;
+    margin-left: -12.1%;
+    margin-top: 4.5%;
+  }
+
+  #previous{
+    width: 12%;
+
+    background-color: #EEEEEE;
+    color: #1A1A40;
+    border: 0px ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 4.5%;
+
+    padding-left: 0px;
+  }

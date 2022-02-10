@@ -35,20 +35,22 @@ function buscarPokemon() {
     .then(respuesta => respuesta.json())
     .then(data => {
         removeChildNodes(pokemonContainer);
-        creaPokemon(data)    
+        creaPokemon(data) 
     })};
+
 
 function fetchPokemons(offset, limit) {
     for (let i = offset; i <= offset + limit; i++) {
         fetching(i)
+
     }
 }
+
 
 function creaPokemon(pokemon) {
     const card = document.createElement('div');
     card.classList.add('pokemon-block');
 
-    
     const spriteContainer = document.createElement('div');
     spriteContainer.classList.add('img-container');
     

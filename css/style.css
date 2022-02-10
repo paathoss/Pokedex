@@ -8,7 +8,7 @@ body{
     justify-content: center;
     flex-direction: row;
 
-    margin-left: 17%;
+    margin-left: 0%;
 }
 
 .title{
@@ -38,6 +38,16 @@ body{
 
     margin-top: 2.5%;
 } */
+
+#refrescar{
+   position: absolute;
+    /* margin-top: 1%; */
+    height: 35px;
+    
+    border: 0px ;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
 
 .imgPoke{
     height: -2100px;

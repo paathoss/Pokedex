@@ -42,7 +42,6 @@ function buscarPokemon() {
 function fetchPokemons(offset, limit) {
     for (let i = offset; i <= offset + limit; i++) {
         fetching(i)
-
     }
 }
 

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokedex</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <button id="refrescar" class="btn btn-light" onClick="window.location.reload();">Refresh Pokemon</button>
+  
+  <div class="caja">
+   
+    <h1 class="title">Pokedex</h1>
+
+    <div class="searcher">
+      <label id="searcherrr" for="searcher">
+        <!-- Insert a Pokemon -->
+      </label>
+      <input id="txtPokemon" onchange="buscarPokemon()" class="search" type="text" name="searcher">
+      <button id="boton" type="button" class="btn btn-light"></button>
+    </div>
+  </div>
+
+
+  <div class="pokemon-container">
+
+  </div>
+
+  <nav aria-label="Page navigation example">
+    <ul id="pag" class="pagination">
+      <li class="page-item"><a class="page-link" href="#" id="previous">Previous 9 Pokemon</a></li>
+      <li class="page-item"><a class="page-link" href="#" id="next">Next 9 Pokemon</a></li>
+    </ul>
+  </nav>
+
+  <!-- <div class="filters">
+    <label for="">Or Type</label>
+    <input type="checkbox" name="fireType" id="">
+    <label for="fireType">Fire</label>
+    
+    <input type="checkbox" name="waterType" id="">
+    <label for="waterType">Water</label>
+
+    <input type="checkbox" name="plantType" id="">
+    <label for="plantType">Plant</label>
+
+  </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src="../script/main.js"></script>
+</body>
+
+</html>
